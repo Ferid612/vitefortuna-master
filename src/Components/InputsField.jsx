@@ -33,7 +33,7 @@ const InputsField = () => {
     whycontactus: '',
   };
   const [state, setState] = useState(initialState);
-  const url = `${BASE_URL}/core-api`;
+  const url = `${BASE_URL}core-api`;
   const postData = async () => {
     if (
       !state.first_name ||
